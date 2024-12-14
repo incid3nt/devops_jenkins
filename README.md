@@ -30,16 +30,16 @@
 
 
 
-### 1. Сначала устанавливаем Java: `sudo apt-get install default-jre`
-2. curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key |
+ 1. Сначала устанавливаем Java: `sudo apt-get install default-jre`
+ 2. Для установки jenkins `curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key |
 sudo tee \
 /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-/etc/apt/sources.list.d/jenkins.list > /dev/null
-sudo apt-get update
-sudo apt-get install jenkins
-sudo apt-get install default-jre
+/etc/apt/sources.list.d/jenkins.list > /dev/null`
+`sudo apt-get update`
+`sudo apt-get install jenkins`
+`sudo apt-get install default-jre`
 ![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
 3. 
 4. `Заполните здесь этапы выполнения, если требуется ....`
