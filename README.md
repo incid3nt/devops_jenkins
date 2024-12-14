@@ -46,7 +46,8 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_qIrgBFM9rg.png)
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_bDkLhdELCw.png)
 
-
+а так же внести изменения в /etc/hosts
+[/etc/hosts](https://github.com/incid3nt/devops_jenkins/blob/main/hosts)
 ---
 
 ### Задание 2
