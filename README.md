@@ -57,7 +57,9 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ![ok](https://github.com/incid3nt/devops_jenkins/blob/main/ok.png)
 ![success](https://github.com/incid3nt/devops_jenkins/blob/main/success.png)
 
-
+###### А еще важное в nexus нужно добавить репозиторий и добавить порт.
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_qIrgBFM9rg.png)
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_bDkLhdELCw.png)
 
 ```
 Поле для вставки кода...
