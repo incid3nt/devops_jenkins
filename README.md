@@ -31,7 +31,8 @@
 
 
 1. Сначала устанавливаем Java: sudo apt-get install default-jre
-2. `Заполните здесь этапы выполнения, если требуется ....`
+2. 
+![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
@@ -46,7 +47,7 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
+
 
 
 ---
