@@ -52,9 +52,12 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ```
 3. Сделал форк репоизтория
 ![FORK](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_URGoREiMAc.png)
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+4. Все получилось:
+![step](https://github.com/incid3nt/devops_jenkins/blob/main/step.png)
+![ok](https://github.com/incid3nt/devops_jenkins/blob/main/ok.png)
+![success](https://github.com/incid3nt/devops_jenkins/blob/main/success.png)
+
+
 
 ```
 Поле для вставки кода...
