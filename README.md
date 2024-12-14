@@ -12,7 +12,10 @@
 
 
 
-  1. Сначала устанавливаем Java: `sudo apt-get install default-jre`
+  1. Сначала устанавливаем Java: 
+  ```
+  sudo apt-get install default-jre
+  ```
  Для установки jenkins 
  ```
  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key |
