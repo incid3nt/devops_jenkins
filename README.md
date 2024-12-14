@@ -46,7 +46,7 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)`
+![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
 
 
 ---
