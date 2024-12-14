@@ -46,8 +46,17 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_qIrgBFM9rg.png)
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_bDkLhdELCw.png)
 
-а так же внести изменения в /etc/hosts
-[/etc/hosts](https://github.com/incid3nt/devops_jenkins/blob/main/hosts)
+###### а так же внести изменения в /etc/hosts
+```
+127.0.0.1	localhost
+127.0.1.1	devops
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+192.168.1.10 ubuntu-bionic
+```
 ---
 
 ### Задание 2
