@@ -27,7 +27,7 @@ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 sudo apt-get update
 sudo apt-get install jenkins
 ```
-![JENKINS](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
+![JENKINS](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/Code_imOhg6d3gb.png?raw=true)
 
 2. Установка golang
 ```
@@ -36,15 +36,15 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ```
 3. Сделал форк репоизтория
-![FORK](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_URGoREiMAc.png)
+![FORK](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_URGoREiMAc.png)
 4. Все получилось:
-![step](https://github.com/incid3nt/devops_jenkins/blob/main/step.png)
-![ok](https://github.com/incid3nt/devops_jenkins/blob/main/ok.png)
-![success](https://github.com/incid3nt/devops_jenkins/blob/main/success.png)
+![step](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/step.png)
+![ok](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/ok.png)
+![success](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/success.png)
 
 ###### А еще важное в nexus нужно добавить репозиторий и добавить порт.
-![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_qIrgBFM9rg.png)
-![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_bDkLhdELCw.png)
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_qIrgBFM9rg.png)
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_bDkLhdELCw.png)
 
 ###### а так же внести изменения в /etc/hosts
 ```
