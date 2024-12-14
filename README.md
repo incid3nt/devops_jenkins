@@ -70,7 +70,8 @@ ff02::2 ip6-allrouters
  2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 ---
-1. Здесь скриншоты
+1. Здесь скриншот:
+![pipeline](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_XiI5sGAUBH.png)
 2. А это код пайплайна
 ```
 pipeline {
