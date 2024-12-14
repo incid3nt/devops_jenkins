@@ -10,7 +10,7 @@
  4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
 ###### В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
-
+---
 
   1. Сначала устанавливаем Java: 
   ```
@@ -70,3 +70,45 @@ ff02::2 ip6-allrouters
  2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 ---
+1. Здесь скриншоты
+2. А это код пайплайна
+```
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/netology-code/sdvps-materials.git'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh '/usr/local/go/bin/go test .'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    def buildNumber = env.BUILD_NUMBER ?: "1"
+                    sh "docker build . -t ubuntu-bionic:8082/hello-world:v${buildNumber}"
+                }
+            }
+        }
+
+        stage('Push Docker Image') {
+            steps {
+                
+                    sh """
+                        docker login -u admin -p admin ubuntu-bionic:8082
+                        docker push ubuntu-bionic:8082/hello-world:v${env.BUILD_NUMBER}
+                        docker logout
+                    """
+                }
+            }
+        }
+    }
+
+```
