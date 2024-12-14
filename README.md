@@ -21,7 +21,7 @@
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
 ---
-# Задание 1.
+### Задание 1.
  1. Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
  2. Установите на машину с jenkins golang.
  3. Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
@@ -60,17 +60,6 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ###### А еще важное в nexus нужно добавить репозиторий и добавить порт.
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_qIrgBFM9rg.png)
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_bDkLhdELCw.png)
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-
 
 
 ---
