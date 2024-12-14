@@ -57,6 +57,12 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 192.168.1.10 ubuntu-bionic
 ```
+создать файл в /etc/docker/daemon.json 
+```
+{
+      "insecure-registries" : ["ubuntu-bionic:8082"]
+}
+```
 ---
 
 ### Задание 2
