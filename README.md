@@ -49,7 +49,8 @@ wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 ```
-3. ![FORK](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_kCCUQbbGxc.png)
+3. Сделал форк репоизтория
+![FORK](https://github.com/incid3nt/devops_jenkins/blob/main/chrome_URGoREiMAc.png)
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
