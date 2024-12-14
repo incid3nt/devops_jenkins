@@ -43,7 +43,12 @@ sudo apt-get update
 sudo apt-get install jenkins
 ```
 ![TEST](https://github.com/incid3nt/devops_jenkins/blob/main/Code_imOhg6d3gb.png?raw=true)
-2. 
+2. Установка golang
+```
+wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
+```
 3. 
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
