@@ -123,3 +123,5 @@ pipeline {
 
 1. Установил nexus.
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/Code_IQWPqkonFS.png)
+2. Создал raw-hosted репозиторий.
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_RNBJOOUL0d.png)
