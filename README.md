@@ -122,4 +122,4 @@ pipeline {
  ---
 
 1. Установил nexus.
-![pipeline]https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/Code_IQWPqkonFS.png)
+![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/Code_IQWPqkonFS.png)
