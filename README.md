@@ -155,11 +155,7 @@ pipeline {
                 sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o devops_jenkins .'
             }
         }
-        stage('Go push') {
-            steps {
-                sh 'curl -u "admin:admin" 
-            }
-        }
+        
     }
 }
 
