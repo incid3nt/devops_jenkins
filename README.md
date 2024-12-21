@@ -162,3 +162,4 @@ pipeline {
 
 ```
 Скриншот:
+![pipeline](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_P6d2NjS4VM.png)
