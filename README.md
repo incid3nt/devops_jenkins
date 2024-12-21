@@ -131,3 +131,4 @@ pipeline {
 2. Создал raw-hosted репозиторий.
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_RNBJOOUL0d.png)
 ---
+/usr/local/go/bin/go
