@@ -155,11 +155,18 @@ pipeline {
                 sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o devops_jenkins .'
             }
         }
-
-
+        stage('Go push') {
+            steps {
+                sh 'curl -u "admin:admin" 
+            }
+        }
     }
 }
 
 ```
 Скриншот:
 ![pipeline](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_P6d2NjS4VM.png)
+4. Команда для загрузки:
+```
+curl -u "admin:admin" -X PUT "http://192.168.1.10:8081/repository/netology/devops_jenkins" --upload-file /var/lib/jenkins/workspace/go/devops_jenkins
+```
