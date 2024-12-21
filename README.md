@@ -144,6 +144,24 @@ pipeline {
             }
         }
 
+        stage('Test') {
+            steps {
+                sh '/usr/local/go/bin/go test .'
+            }
+        }
+
+        stage('Build Binary') {
+            steps {
+                sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o hello-world .'
+            }
+        }
+
+        stage('Archive Artifacts') {
+            steps {
+                archiveArtifacts artifacts: 'hello-world', fingerprint: true
+            }
+        }
+    }
 }
 
 ```
