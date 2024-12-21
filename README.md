@@ -132,3 +132,18 @@ pipeline {
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_RNBJOOUL0d.png)
 ---
 /usr/local/go/bin/go
+
+```
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/netology-code/sdvps-materials.git'
+            }
+        }
+
+}
+
+```
