@@ -170,3 +170,5 @@ pipeline {
 ```
 curl -u "admin:admin" -X PUT "http://192.168.1.10:8081/repository/netology/devops_jenkins" --upload-file /var/lib/jenkins/workspace/go/devops_jenkins
 ```
+###### Файл загружен:
+![pipeline](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_yVl9sPb4od.png)
