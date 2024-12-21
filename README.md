@@ -132,7 +132,7 @@ pipeline {
 ![nexus](https://github.com/incid3nt/devops_jenkins/blob/main/screenshots/chrome_RNBJOOUL0d.png)
 ---
 /usr/local/go/bin/go
-
+3. Пайплайн измененный 
 ```
 pipeline {
     agent any
@@ -152,16 +152,13 @@ pipeline {
 
         stage('Build Binary') {
             steps {
-                sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o hello-world .'
+                sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o devops_jenkins .'
             }
         }
 
-        stage('Archive Artifacts') {
-            steps {
-                archiveArtifacts artifacts: 'hello-world', fingerprint: true
-            }
-        }
+
     }
 }
 
 ```
+Скриншот:
